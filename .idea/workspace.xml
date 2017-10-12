@@ -62,16 +62,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoursesPage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CoursesPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/course/CoursesPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="234">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <marker date="1507845747000" expanded="true" signature="785:1137" ph="..." />
-                <marker date="1507845747000" expanded="true" signature="907:1016" ph="..." />
-                <marker date="1507845747000" expanded="true" signature="1034:1123" ph="..." />
+                <marker date="1507846031000" expanded="true" signature="771:1123" ph="..." />
+                <marker date="1507846031000" expanded="true" signature="893:1002" ph="..." />
+                <marker date="1507846031000" expanded="true" signature="1020:1109" ph="..." />
               </folding>
             </state>
           </provider>
@@ -81,17 +81,17 @@
         <entry file="file://$PROJECT_DIR$/src/actions/courseActions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="courseReducer.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="courseReducer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/reducers/courseReducer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -171,9 +171,9 @@
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/store/configureStore.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/course/CoursesPage.js" />
         <option value="$PROJECT_DIR$/src/actions/courseActions.js" />
         <option value="$PROJECT_DIR$/src/reducers/courseReducer.js" />
-        <option value="$PROJECT_DIR$/src/components/course/CoursesPage.js" />
       </list>
     </option>
   </component>
@@ -528,12 +528,12 @@
       <updated>1506681235264</updated>
       <workItem from="1506681236474" duration="8303000" />
       <workItem from="1506976384693" duration="3540000" />
-      <workItem from="1507799303820" duration="7576000" />
+      <workItem from="1507799303820" duration="7732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19419000" />
+    <option name="totallyTimeSpent" value="19575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="840" extended-state="6" />
@@ -913,10 +913,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/course/CoursesPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1507846031000" expanded="true" signature="771:1123" ph="..." />
+            <marker date="1507846031000" expanded="true" signature="893:1002" ph="..." />
+            <marker date="1507846031000" expanded="true" signature="1020:1109" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/courseActions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -924,21 +937,8 @@
     <entry file="file://$PROJECT_DIR$/src/reducers/courseReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/course/CoursesPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <marker date="1507845747000" expanded="true" signature="785:1137" ph="..." />
-            <marker date="1507845747000" expanded="true" signature="907:1016" ph="..." />
-            <marker date="1507845747000" expanded="true" signature="1034:1123" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
