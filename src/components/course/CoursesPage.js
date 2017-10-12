@@ -1,5 +1,5 @@
 import React, {PropTypes} from "react";
-
+import {connect} from 'react-redux';
 class CoursesPage extends React.Component {
   constructor(props, context) {
     super(props, context);
@@ -35,7 +35,7 @@ class CoursesPage extends React.Component {
          <input
            type="submit"
            value="Save"
-           onChange={this.onClickSave} />
+           onClick={this.onClickSave} />
        </div>
     );
   }
