@@ -6,7 +6,7 @@
   margin: 0 auto;
 }
 
-a.active {
+a.active, a:focus, a:active {
   color: orange;
 }
 
