@@ -64,12 +64,12 @@
         <entry file="file://$PROJECT_DIR$/src/components/course/CoursesPage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <marker date="1507886178000" expanded="true" signature="747:1099" ph="..." />
-                <marker date="1507886178000" expanded="true" signature="869:978" ph="..." />
-                <marker date="1507886178000" expanded="true" signature="996:1085" ph="..." />
+                <marker date="1507886590000" expanded="true" signature="797:1149" ph="..." />
+                <marker date="1507886590000" expanded="true" signature="919:1028" ph="..." />
+                <marker date="1507886590000" expanded="true" signature="1046:1135" ph="..." />
               </folding>
             </state>
           </provider>
@@ -527,12 +527,12 @@
       <workItem from="1506681236474" duration="8303000" />
       <workItem from="1506976384693" duration="3540000" />
       <workItem from="1507799303820" duration="7826000" />
-      <workItem from="1507882806904" duration="802000" />
+      <workItem from="1507882806904" duration="1297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20471000" />
+    <option name="totallyTimeSpent" value="20966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="838" extended-state="6" />
@@ -931,12 +931,12 @@
     <entry file="file://$PROJECT_DIR$/src/components/course/CoursesPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <marker date="1507886178000" expanded="true" signature="747:1099" ph="..." />
-            <marker date="1507886178000" expanded="true" signature="869:978" ph="..." />
-            <marker date="1507886178000" expanded="true" signature="996:1085" ph="..." />
+            <marker date="1507886590000" expanded="true" signature="797:1149" ph="..." />
+            <marker date="1507886590000" expanded="true" signature="919:1028" ph="..." />
+            <marker date="1507886590000" expanded="true" signature="1046:1135" ph="..." />
           </folding>
         </state>
       </provider>
