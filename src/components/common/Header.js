@@ -14,4 +14,8 @@ const Header = ({loading}) => {
     </nav>
   );
 };
+
+Header.propTypes = {
+  loading: PropTypes.bool.isRequired
+};
 export default Header;
