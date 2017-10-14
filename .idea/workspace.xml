@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="552c7897-0edc-45d2-9ef8-658d6b5cee76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/courseActions.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/courseReducer.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/selectors/authorSelectors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/selectors/authorSelectors.test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/course/ManageCoursePage.js" afterPath="$PROJECT_DIR$/src/components/course/ManageCoursePage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/courseActions.test.js" afterPath="$PROJECT_DIR$/src/actions/courseActions.test.js" />
     </list>
     <ignored path="reactreduxpsnew.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,8 +97,8 @@
       <file leaf-file-name="courseActions.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/actions/courseActions.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="387">
+              <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -577,12 +572,12 @@
       <workItem from="1506976384693" duration="3540000" />
       <workItem from="1507799303820" duration="7826000" />
       <workItem from="1507882806904" duration="26856000" />
-      <workItem from="1507969858824" duration="9556000" />
+      <workItem from="1507969858824" duration="10538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56081000" />
+    <option name="totallyTimeSpent" value="57063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="840" extended-state="6" />
@@ -1037,8 +1032,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/courseActions.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="387">
+          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
