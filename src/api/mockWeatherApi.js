@@ -6,11 +6,14 @@ import delay from './delay';
 // // search:     location name or zipcode
 // // degreeType: F or C
 //
+// let actualWeather;
 // weather.find({search: 'San Francisco, CA', degreeType: 'F'}, function(err, result) {
 //   if(err) console.log(err);
 //
 //   console.log(JSON.stringify(result, null, 2));
+//   actualWeather = JSON.stringify(result, null, 2);
 // });
+
 
 const weather = [
   {
