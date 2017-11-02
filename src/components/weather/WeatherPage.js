@@ -1,7 +1,8 @@
 import React, {PropTypes} from 'react';
-import * as weatherActions from '../../actions/weatherActions';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
+import * as weatherActions from '../../actions/weatherActions';
+import WeatherList from './WeatherList';
 
 class WeatherPage extends React.Component {
   constructor(props, context) {
@@ -9,13 +10,12 @@ class WeatherPage extends React.Component {
   }
 
   render() {
-    const weather = this.props;
-    const weatherJson = JSON.stringify(weather);
+    const {weather} = this.props;
 
     return(
       <div>
         <h2>The weather from weather-js API</h2>
-        <div>{weatherJson}</div>
+        <WeatherList weather={weather} />
       </div>
     );
   }
