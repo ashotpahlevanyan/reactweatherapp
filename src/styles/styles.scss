@@ -205,19 +205,19 @@ nav {
     margin: 10px auto 0;
     width: 63px;
     height: 55px;
-    background: url("../images/cloud-sunny.png") center center no-repeat;
+    background: url("../images/cloud-sunny.png") center top no-repeat;
 
     &.sunny {
-      background: url("../images/cloud-sunny.png") 0 0 no-repeat;
+      background: url("../images/cloud-sunny.png") center top no-repeat;
     }
     &.overcast {
-      background: url("../images/cloud-overcast.png") 0 0 no-repeat;
+      background: url("../images/cloud-overcast.png") center top no-repeat;
     }
     &.cloudy {
-      background: url("../images/cloud-cloudy.png") 0 0 no-repeat;
+      background: url("../images/cloud-cloudy.png") center top no-repeat;
     }
     &.rainy {
-      background: url("../images/cloud-rainy.png") 0 0 no-repeat;
+      background: url("../images/cloud-rainy.png") center top no-repeat;
     }
   }
   .temperature {

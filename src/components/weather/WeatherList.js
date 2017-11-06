@@ -6,20 +6,21 @@ const WeatherList = ({weather}) => {
     <table className="table">
       <thead>
       <tr>
-        <th>Location</th>
-        <th>Lat</th>
-        <th>Long</th>
-        <th>Temperature</th>
-        <th>Sky text</th>
-        <th>Date</th>
-        <th>Feels like</th>
-        <th>Humidity</th>
-        <th>Wind</th>
+        <td>Day Time Hour</td>
+        <td>Temperature</td>
+        <td>Max Temperature</td>
+        <td>Min Temperature</td>
+        <td>Wind direction</td>
+        <td>Wind Speed</td>
+        <td>Sky Text</td>
+        <td>Humidity</td>
+        <td>Sky</td>
+        <td>Sky Icon</td>
       </tr>
       </thead>
       <tbody>
       {weather.map(weath =>
-        <WeatherListRow key={weath.location.name} weath={weath} />
+        <WeatherListRow key={weath.dt_txt} weath={weath} />
       )}
       </tbody>
     </table>

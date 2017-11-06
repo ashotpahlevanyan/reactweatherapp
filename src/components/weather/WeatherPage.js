@@ -10,11 +10,12 @@ class WeatherPage extends React.Component {
   }
 
   render() {
+    const {weather} = this.props;
     return(
       <div>
         <h2>The weather from weather-js API</h2>
-        {/*<WeatherList weather={weather} />*/}
-        <div className="weatherWidget clearfix">
+        <WeatherList weather={weather} />
+        {/*<div className="weatherWidget clearfix">
           <div className="leftSide">
             <div className="date">Friday,</div>
             <div className="date">August 23 rd</div>
@@ -55,11 +56,11 @@ class WeatherPage extends React.Component {
               <span className="temperature">18<sup>o</sup></span>
             </li>
           </ul>
-        </div>
+        </div>*/}
       </div>
     );
 
-    //const {weather} = this.props;
+
   }
 }
 

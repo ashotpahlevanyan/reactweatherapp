@@ -397,15 +397,15 @@ nav {
     margin: 10px auto 0;
     width: 63px;
     height: 55px;
-    background: url("../images/cloud-sunny.png") center center no-repeat; }
+    background: url("../images/cloud-sunny.png") center top no-repeat; }
     .forecast .cloud.sunny {
-      background: url("../images/cloud-sunny.png") 0 0 no-repeat; }
+      background: url("../images/cloud-sunny.png") center top no-repeat; }
     .forecast .cloud.overcast {
-      background: url("../images/cloud-overcast.png") 0 0 no-repeat; }
+      background: url("../images/cloud-overcast.png") center top no-repeat; }
     .forecast .cloud.cloudy {
-      background: url("../images/cloud-cloudy.png") 0 0 no-repeat; }
+      background: url("../images/cloud-cloudy.png") center top no-repeat; }
     .forecast .cloud.rainy {
-      background: url("../images/cloud-rainy.png") 0 0 no-repeat; }
+      background: url("../images/cloud-rainy.png") center top no-repeat; }
   .forecast .temperature {
     display: block;
     margin: 10px auto 0; }
