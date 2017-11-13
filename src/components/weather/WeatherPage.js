@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as weatherActions from '../../actions/weatherActions';
 import WeatherList from './WeatherList';
+import WeatherDarkPage from './WeatherDarkPage';
 
 class WeatherPage extends React.Component {
   constructor(props, context) {
@@ -57,7 +58,27 @@ class WeatherPage extends React.Component {
             </li>
           </ul>
         </div>*/}
+        {/*<div className="weatherContainer">
+          <form className="form">
+            <fieldset className="searchFields">
+              <div className="form-group">
+                <i className="glyphicon glyphicon-search"></i>
+                <input type="text" className="form-control search" placeholder="Type City to get Weather"/>
+              </div>
+              <ul className="suggestedLocations">
+                <li>Cities</li>
+                <li>Yerevan</li>
+                <li>New York</li>
+                <li>Montevideo</li>
+                <li>Stockholm</li>
+              </ul>
+              <button type="submit" className="btn btn-primary searchButton">Search</button>
+            </fieldset>
+          </form>
+        </div>*/}
+        <WeatherDarkPage />
       </div>
+
     );
 
 

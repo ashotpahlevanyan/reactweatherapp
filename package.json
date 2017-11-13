@@ -22,6 +22,8 @@
   "dependencies": {
     "babel-polyfill": "6.8.0",
     "bootstrap": "3.3.6",
+    "csscomb": "^4.2.0",
+    "font-awesome": "^4.7.0",
     "forecast": "^0.3.2",
     "jquery": "2.2.3",
     "react": "15.0.2",
@@ -32,7 +34,8 @@
     "redux": "3.5.2",
     "redux-thunk": "2.0.1",
     "toastr": "2.1.2",
-    "weather-js": "^2.0.0"
+    "weather-js": "^2.0.0",
+    "weathericons": "^2.1.0"
   },
   "devDependencies": {
     "babel-cli": "6.8.0",

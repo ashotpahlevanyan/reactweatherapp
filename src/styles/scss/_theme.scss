@@ -1,4 +1,7 @@
-@import "variables";
+
+.bgColorLightBLue {
+  background-color: $colorMomondoLightBlue;
+}
 
 .fontSize10 {
   font-size: $fontSize10;
@@ -52,3 +55,4 @@
   -ms-transform: matrix(0.30715664644236, 0, 0, 0.29346931216767, 0, 0);
   transform: matrix(0.30715664644236, 0, 0, 0.29346931216767, 0, 0);
 }
+
