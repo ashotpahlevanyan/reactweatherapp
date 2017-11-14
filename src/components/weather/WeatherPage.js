@@ -15,7 +15,9 @@ class WeatherPage extends React.Component {
     return(
       <div>
         <h2>The weather from weather-js API</h2>
-        <WeatherList weather={weather} />
+        <h3>City: {weather.city.name}, {weather.city.country}, ID: {weather.city.id},
+          Lat: {weather.city.coord.lat}, Lon: {weather.city.coord.lon}</h3>
+        <WeatherList weather={weather.list} />
         {/*<div className="weatherWidget clearfix">
           <div className="leftSide">
             <div className="date">Friday,</div>
@@ -86,7 +88,7 @@ class WeatherPage extends React.Component {
 }
 
 WeatherPage.propTypes = {
-  weather: PropTypes.array.isRequired
+  weather: PropTypes.object.isRequired
 };
 
 function mapStateToProps(state, ownProps) {

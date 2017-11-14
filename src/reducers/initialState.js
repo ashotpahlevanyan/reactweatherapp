@@ -1,4 +1,4 @@
 export default {
-  weather: [],
+  weather: {},
   ajaxCallsInProgress: 0
 };

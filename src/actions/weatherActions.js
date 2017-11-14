@@ -12,7 +12,7 @@ export function loadWeather() {
     dispatch(beginAjaxCall());
     return fetchWeather(cityId).then(weather => {
       console.log(weather);
-      dispatch(loadWeatherSuccess(weather.list));
+      dispatch(loadWeatherSuccess(weather));
     }).catch(error => {
       throw(error);
     });
