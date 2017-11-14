@@ -408,7 +408,6 @@ nav {
 =================================*/
 .darkWeather {
   font-family: "Roboto", "Open Sans", sans-serif;
-  border: 1px solid #ccc;
   color: #fff;
   font-size: 14px;
   margin-bottom: 40px; }
@@ -604,8 +603,7 @@ nav {
 @media (max-width: 768px) {
   .container, .container-fluid {
     margin: 0 !important;
-    padding: 0 !important;
-    border: none; }
+    padding: 0 !important; }
 
   .darkWeather .header {
     padding: 0 15px;

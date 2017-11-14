@@ -3,7 +3,7 @@ let apiUrl = "http://api.openweathermap.org/data/2.5/";
 let cityId = 616051;
 //http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID={APIKEY}
 
-let fetchWeather = function(city) {
+let fetchWeather = function(cityId) {
   let weeklyWeatherUrl =
     `${apiUrl}/forecast?id=${cityId}&units=metric&APPID=${API_KEY}`;
 

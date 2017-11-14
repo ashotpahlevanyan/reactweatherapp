@@ -289,7 +289,6 @@ $fsGiant: 60px;
 
 .darkWeather {
   font-family: $ffRoboto;
-  border: 1px solid #ccc;
   color: $colorWhite;
   font-size: $fsBase;
   margin-bottom: 40px;
@@ -482,7 +481,6 @@ $fsGiant: 60px;
   .container, .container-fluid {
     margin: 0 !important;
     padding: 0 !important;
-    border: none;
   }
   .darkWeather {
     .header {
