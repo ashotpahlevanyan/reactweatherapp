@@ -5,7 +5,7 @@ let cityId = 616051;
 
 let fetchWeather = function(city) {
   let weeklyWeatherUrl =
-    `${apiUrl}/forecast?id=${cityId}&units=metric&cnt=7&APPID=${API_KEY}`;
+    `${apiUrl}/forecast?id=${cityId}&units=metric&APPID=${API_KEY}`;
 
   return fetch(weeklyWeatherUrl).then((response) => response.json());
 
