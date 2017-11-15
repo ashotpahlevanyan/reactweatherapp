@@ -1,5 +1,14 @@
 import React, {PropTypes} from 'react';
 //import {Link} from 'react-router';
+import WeatherIcon from './WeatherIcon';
+
+function getDate(dateString) {
+  let dateArr = dateString.split(' ');
+  return {
+    date: dateArr[0],
+    time: dateArr[1].substr(0,5)
+  };
+}
 
 const WeatherListRow = ({weath}) => {
   return (
@@ -16,7 +25,7 @@ const WeatherListRow = ({weath}) => {
       {/*<td>{weath.city.id}</td>*/}
       {/*<td>{weath.city.name}</td>*/}
       {/*<td>{weath.city.country}</td>*/}
-      <td>{weath.dt_txt}</td>
+      <td>{getDate(weath.dt_txt).date}</td>
       <td>{weath.main.temp}</td>
       <td>{weath.main.temp_max}</td>
       <td>{weath.main.temp_min}</td>
@@ -25,7 +34,7 @@ const WeatherListRow = ({weath}) => {
       <td>{weath.weather[0].main}</td>
       <td>{weath.main.humidity}</td>
       <td>{weath.weather[0].description}</td>
-      <td>{weath.weather[0].icon}</td>
+      <td><WeatherIcon icon ={weath.weather[0].icon}/></td>
     </tr>
   );
 };
