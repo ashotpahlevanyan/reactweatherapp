@@ -25,7 +25,7 @@ const WeatherListRow = ({weath}) => {
       {/*<td>{weath.city.id}</td>*/}
       {/*<td>{weath.city.name}</td>*/}
       {/*<td>{weath.city.country}</td>*/}
-      <td>{getDate(weath.dt_txt).date}</td>
+      <td>{weath.dt_txt}</td>
       <td>{weath.main.temp}</td>
       <td>{weath.main.temp_max}</td>
       <td>{weath.main.temp_min}</td>

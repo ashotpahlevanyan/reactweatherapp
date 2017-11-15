@@ -21,7 +21,7 @@ class Switch extends React.Component {
   render() {
     return (
       <label className="switch" onClick={this.onClick}>
-        <input type="checkbox" checked={this.state.checked}/>
+        <input type="checkbox" checked={this.checked}/>
         <span className={"slider " + this.state.shape}></span>
       </label>
     );
