@@ -15,12 +15,10 @@ class WeatherPage extends React.Component {
     const {weather} = this.props;
     return(
       <div>
-        <h2>The weather from weather-js API</h2>
-        <h3>City: {weather.city.name}, {weather.city.country}, ID: {weather.city.id},
-          Lat: {weather.city.coord.lat}, Lon: {weather.city.coord.lon}</h3>
+
         <div className="switchContainer">
           <span>Daily</span>
-          <Switch checked={true} shape="round"/>
+          <Switch checked shape="round"/>
           <span>Hourly</span>
         </div>
 

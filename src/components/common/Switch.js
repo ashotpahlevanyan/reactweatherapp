@@ -12,7 +12,7 @@ class Switch extends React.Component {
     this.onClick = this.onClick.bind(this);
   }
 
-  onClick() {
+  onClick(event) {
     this.setState(prevState => ({
       checked: !prevState.checked
     }));

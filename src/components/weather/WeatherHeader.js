@@ -1,0 +1,57 @@
+import React, {PropTypes} from "react";
+import {connect} from 'react-redux';
+
+class WeatherHeader extends React.Component {
+  constructor(props, context) {
+    super(props, context);
+  }
+
+  render() {
+    const {weather} = this.props;
+    return(
+      <div className="headerWrapper">
+        <h2>The weather from weather-js API, Location Information</h2>
+        <table className="table">
+          <tbody>
+          <tr>
+            <td>City</td>
+            <td>{weather.city.name}</td>
+          </tr>
+          <tr>
+            <td>Country</td>
+            <td>{weather.city.country}</td>
+          </tr>
+          <tr>
+            <td>City ID</td>
+            <td>{weather.city.id}</td>
+          </tr>
+          <tr>
+            <td>Lat</td>
+            <td>{weather.city.coord.lat}</td>
+          </tr>
+          <tr>
+            <td>Lon</td>
+            <td>{weather.city.coord.lon}</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    );
+  }
+}
+
+WeatherHeader.propTypes = {
+  weather: PropTypes.object.isRequired
+};
+
+function mapStateToProps(state, ownProps) {
+  return {
+    weather: state.weather
+  };
+}
+
+function mapDispatchToProps(dispatch) {
+
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(WeatherHeader);

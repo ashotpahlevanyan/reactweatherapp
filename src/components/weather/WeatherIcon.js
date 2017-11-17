@@ -77,23 +77,3 @@ WeatherIcon.propTypes = {
 };
 
 export default WeatherIcon;
-
-/*01d  - wi-day-sunny
-01n  - wi-night-clear
-02d - wi-day-cloudy
-02n - wi-night-cloudy
-
-03d - wi-cloud
-03n - wi-cloud
-04d - wi-day-cloudy
-04n - wi-night-cloudy
-09d - wi-day-showers
-09n - wi-night-showers
-10d - wi-day-rain
-10n - wi-night-rain
-11d - wi-day-thunderstorm
-11n - wi-night-thunderstorm
-13d - wi-day-snow
-13d - wi-night-snow
-50d - wi-day-fog
-50n - wi-day-fog*/
