@@ -1,6 +1,3 @@
-export const BEGIN_AJAX_CALL = "BEGIN_AJAX_CALL";
-export const AJAX_CALL_ERROR = "AJAX_CALL_ERROR";
-
 export const LOAD_WEATHER_SUCCESS = "LOAD_WEATHER_SUCCESS";
 
-export const SEARCH = 'SEARCH';
+export const SEARCH_LOCATION = "SEARCH_LOCATION";

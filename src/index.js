@@ -15,7 +15,7 @@ import '../node_modules/weathericons/css/weather-icons.min.css';
 
 
 const store = configureStore();
-store.dispatch(loadWeather(5601538));
+store.dispatch(loadWeather());
 
 render(
   <Provider store={store}>
