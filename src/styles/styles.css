@@ -150,6 +150,37 @@ nav {
 
 /*Dark theme of weather==========
 =================================*/
+.searchForm {
+  position: relative;
+  margin-bottom: 75px;
+  padding: 10px 15px;
+  color: #fff; }
+  .searchForm .search {
+    -webkit-border-radius: 30px;
+    -khtml-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    height: 60px;
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 15px 120px 15px 30px;
+    background-color: #1e202b;
+    width: 100%;
+    border: none; }
+  .searchForm .buttonPrimary {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: #009ad8;
+    border-radius: 26px;
+    border: none;
+    height: 50px;
+    padding: 10px 40px; }
+
 .darkWeather {
   font-family: "Roboto", "Open Sans", sans-serif;
   color: #fff;
@@ -157,35 +188,6 @@ nav {
   margin-bottom: 40px; }
   .darkWeather .header {
     color: #323544; }
-  .darkWeather .form {
-    position: relative;
-    margin-bottom: 75px;
-    padding: 10px 15px; }
-    .darkWeather .form .search {
-      -webkit-border-radius: 30px;
-      -khtml-border-radius: 30px;
-      -moz-border-radius: 30px;
-      -ms-border-radius: 30px;
-      -o-border-radius: 30px;
-      border-radius: 30px;
-      height: 60px;
-      line-height: 1.5;
-      font-size: 20px;
-      padding: 15px 120px 15px 30px;
-      background-color: #1e202b;
-      width: 100%;
-      border: none; }
-    .darkWeather .form .buttonPrimary {
-      position: absolute;
-      top: 15px;
-      right: 20px;
-      font-size: 20px;
-      line-height: 1.5;
-      background-color: #009ad8;
-      border-radius: 26px;
-      border: none;
-      height: 50px;
-      padding: 10px 40px; }
   .darkWeather .weatherWrapper {
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
@@ -374,8 +376,9 @@ nav {
           text-align: left;
           background-color: transparent; } }
 @media (max-width: 480px) {
-  .darkWeather .form .buttonPrimary {
+  .searchForm .buttonPrimary {
     padding: 10px 20px; }
+
   .darkWeather .weatherWrapper .current .currentHeader {
     -webkit-border-radius: 0px;
     -khtml-border-radius: 0px;

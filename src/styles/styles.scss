@@ -39,6 +39,37 @@ $fsLarge: 30px;
 $fsHuge: 45px;
 $fsGiant: 60px;
 
+
+.searchForm {
+  position: relative;
+  margin-bottom: 75px;
+  padding: 10px 15px;
+  color: $colorWhite;
+
+  .search {
+    @include border-radius(30px);
+    height: 60px;
+    line-height: 1.5;
+    font-size: $fsMiddle;
+    padding: 15px 120px 15px 30px;
+    background-color: $colorSuperDarkBlue;
+    width: 100%;
+    border: none;
+  }
+  .buttonPrimary {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: $fsMiddle;
+    line-height: 1.5;
+    background-color: $colorLightBlue;
+    border-radius: 26px;
+    border: none;
+    height: 50px;
+    padding: 10px 40px;
+  }
+}
+
 .darkWeather {
   font-family: $ffRoboto;
   color: $colorWhite;
@@ -48,33 +79,7 @@ $fsGiant: 60px;
   .header {
     color: $colorBlue;
   }
-  .form {
-    position: relative;
-    margin-bottom: 75px;
-    padding: 10px 15px;
-    .search {
-      @include border-radius(30px);
-      height: 60px;
-      line-height: 1.5;
-      font-size: $fsMiddle;
-      padding: 15px 120px 15px 30px;
-      background-color: $colorSuperDarkBlue;
-      width: 100%;
-      border: none;
-    }
-    .buttonPrimary {
-      position: absolute;
-      top: 15px;
-      right: 20px;
-      font-size: $fsMiddle;
-      line-height: 1.5;
-      background-color: $colorLightBlue;
-      border-radius: 26px;
-      border: none;
-      height: 50px;
-      padding: 10px 40px;
-    }
-  }
+
   .weatherWrapper {
     @include border-radius(10px);
     background-color: $colorMainBg;
@@ -273,12 +278,13 @@ $fsGiant: 60px;
 }
 
 @media (max-width: 480px) {
-  .darkWeather {
-    .form {
-      .buttonPrimary {
-        padding: 10px 20px;
-      }
+  .searchForm {
+    .buttonPrimary {
+      padding: 10px 20px;
     }
+  }
+  .darkWeather {
+
     .weatherWrapper {
       .current {
         .currentHeader {

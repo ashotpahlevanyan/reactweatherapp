@@ -8,5 +8,5 @@ export function searchLocationSubmit(location) {
 }
 
 export function searchLocation(location) {
-  return loadWeather(location);
+  loadWeather(location);
 }
