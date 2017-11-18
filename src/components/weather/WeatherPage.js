@@ -5,17 +5,24 @@ import * as weatherActions from '../../actions/weatherActions';
 import WeatherList from './WeatherList';
 import WeatherDarkPage from './WeatherDarkPage';
 import Switch from '../common/Switch';
+import WeatherHeader from './WeatherHeader';
 
 class WeatherPage extends React.Component {
   constructor(props, context) {
     super(props, context);
+
+    this.state = {
+      city: "Bucharest",
+      searchedCity: "Bucharest",
+      weekWeather: []
+    };
   }
 
   render() {
     const {weather} = this.props;
     return(
       <div>
-
+        <WeatherHeader weather={weather} />
         <div className="switchContainer">
           <span>Daily</span>
           <Switch checked shape="round"/>
