@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 import * as types from './actionTypes';
 import {beginAjaxCall} from './ajaxStatusActions';
 import {fetchWeather} from '../api/openWeatherApi';
