@@ -14,8 +14,17 @@ class WeatherPage extends React.Component {
     this.state = {
       city: "Bucharest",
       searchedCity: "Bucharest",
-      weekWeather: []
+      weekWeather: [],
+      checked : true
     };
+
+    this.handleSwitchClick = this.handleSwitchClick.bind(this);
+  }
+
+  handleSwitchClick (event) {
+    this.setState({
+      checked : !this.state.checked
+    });
   }
 
   render() {
@@ -25,7 +34,7 @@ class WeatherPage extends React.Component {
         <WeatherHeader weather={weather} />
         <div className="switchContainer">
           <span>Daily</span>
-          <Switch checked shape="round"/>
+          <Switch checked={false} shape="round" onClick={this.handleSwitchClick}/>
           <span>Hourly</span>
         </div>
 

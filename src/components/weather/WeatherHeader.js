@@ -41,7 +41,17 @@ class WeatherHeader extends React.Component {
 }
 
 WeatherHeader.propTypes = {
-  weather: PropTypes.object.isRequired
+  weather: PropTypes.objectOf({
+    city: PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      country: PropTypes.string.isRequired,
+      id: PropTypes.number.isRequired,
+      coord: PropTypes.objectOf({
+        lat: PropTypes.string.isRequired,
+        lon: PropTypes.string.isRequired
+      }).isRequired
+    }).isRequired
+  }).isRequired
 };
 
 function mapStateToProps(state, ownProps) {
