@@ -1,6 +1,7 @@
 import React, {PropTypes} from 'react';
 //import {Link} from 'react-router';
 import WeatherIcon from './WeatherIcon';
+import WindDirectionIcon from './WindDirectionIcon';
 
 function getDate(dateString) {
   let dateArr = dateString.split(' ');
@@ -17,7 +18,7 @@ const WeatherListRow = ({weath}) => {
       <td>{weath.main.temp}</td>
       <td>{weath.main.temp_max}</td>
       <td>{weath.main.temp_min}</td>
-      <td>{weath.wind.deg}</td>
+      <td><WindDirectionIcon angle={weath.wind.deg} /></td>
       <td>{weath.wind.speed}</td>
       <td>{weath.weather[0].main}</td>
       <td>{weath.main.humidity}</td>

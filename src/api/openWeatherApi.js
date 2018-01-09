@@ -8,7 +8,6 @@ let fetchWeather = function(cityId) {
     `${apiUrl}/forecast?id=${cityId}&units=metric&APPID=${API_KEY}`;
 
   return fetch(weeklyWeatherUrl).then((response) => response.json());
-
 };
 
 export {fetchWeather};

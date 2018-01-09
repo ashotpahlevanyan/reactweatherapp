@@ -12,10 +12,11 @@ import './styles/styles.css'; //Webpack can import CSS files too!!
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/toastr/build/toastr.min.css';
 import '../node_modules/weathericons/css/weather-icons.min.css';
+import '../node_modules/weathericons/css/weather-icons-wind.css';
 
 
 const store = configureStore();
-store.dispatch(loadWeather(5601538));
+store.dispatch(loadWeather(616051));
 
 render(
   <Provider store={store}>

@@ -4,6 +4,7 @@ import {bindActionCreators} from 'redux';
 import * as weatherActions from '../../actions/weatherActions';
 import WeatherList from './WeatherList';
 import WeatherDarkPage from './WeatherDarkPage';
+import WeatherDarkPageHourly from './WeatherDarkPageHourly';
 import Switch from '../common/Switch';
 import WeatherHeader from './WeatherHeader';
 
@@ -31,6 +32,8 @@ class WeatherPage extends React.Component {
     const {weather} = this.props;
     return(
       <div>
+        <WeatherDarkPageHourly />
+        {/*<WeatherDarkPage />*/}
         <WeatherHeader weather={weather} />
         <div className="switchContainer">
           <span>Daily</span>
@@ -40,7 +43,7 @@ class WeatherPage extends React.Component {
 
         <WeatherList weather={weather.list} />
 
-        <WeatherDarkPage />
+
       </div>
 
     );
