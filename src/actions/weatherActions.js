@@ -4,6 +4,14 @@ import * as types from './actionTypes';
 import {beginAjaxCall} from './ajaxStatusActions';
 import {fetchWeather} from '../api/openWeatherApi';
 
+export function formSubmit(cityId) {
+  loadWeather(cityId);
+}
+
+export function searchFormSubmit(value) {
+  formSubmit(value);
+  return {type: types.SEARCH_FORM_SUBMIT, value};
+}
 
 export function loadWeatherSuccess(weather) {
   return {type: types.LOAD_WEATHER_SUCCESS, weather};

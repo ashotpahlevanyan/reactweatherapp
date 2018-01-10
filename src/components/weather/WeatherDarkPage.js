@@ -1,5 +1,6 @@
 import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
+import SearchForm from '../common/SearchForm';
 import {bindActionCreators} from 'redux';
 import * as weatherActions from '../../actions/weatherActions';
 
@@ -7,16 +8,19 @@ class WeatherDarkPage extends React.Component {
   // constructor(props, context) {
   //   super(props, context);
   // }
-
+  onFormSubmit(event) {
+    console.log("form submitted");
+  }
   render() {
     //const {weather} = this.props;
     return(
       <div className="container darkWeather">
         <h1 className="header">Dark Weather Application</h1>
-        <form className="form">
-          <input type="text" placeholder="Find your location" className="search"/>
-          <button type="submit" className="buttonPrimary">Find</button>
-        </form>
+        {/*<form className="form">*/}
+          {/*<input type="text" placeholder="Find your location" className="search"/>*/}
+          {/*<button type="submit" className="buttonPrimary">Find</button>*/}
+        {/*</form>*/}
+        <SearchForm value="Yerevan" onSubmit={this.onFormSubmit}/>
         <div className="weatherWrapper clearfix">
           <div className="current pull-left">
             <h4 className="currentHeader clearfix">
