@@ -32,7 +32,7 @@ class WeatherPage extends React.Component {
     const {weather} = this.props;
     return(
       <div>
-        {/*<WeatherDarkPageHourly />*/}
+        <WeatherDarkPageHourly />
         <WeatherDarkPage />
         <WeatherHeader weather={weather} />
         <div className="switchContainer">
