@@ -1,8 +1,8 @@
 import React, {PropTypes} from 'react';
 //import {Link} from 'react-router';
-import WeatherIcon from '../common/WeatherIcon';
-import DirectionIcon from '../common/DirectionIcon';
-import DirectionText from '../common/DirectionText';
+import WeatherIcon from '../../common/WeatherIcon';
+import DirectionIcon from '../../common/DirectionIcon';
+import DirectionText from '../../common/DirectionText';
 
 function getDate(dateString) {
   let dateArr = dateString.split(' ');

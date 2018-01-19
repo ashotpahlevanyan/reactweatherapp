@@ -17,7 +17,7 @@ class SearchForm extends React.Component {
     this.setState({
       value : event.target.value
     });
-    console.log(this.state.value);
+    //console.log(this.state.value);
   }
   onSubmit(e) {
     //console.log("form is sumbitted with value " + this.state.value);

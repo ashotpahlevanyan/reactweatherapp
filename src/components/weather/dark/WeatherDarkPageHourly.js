@@ -1,8 +1,8 @@
 import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
-import * as weatherActions from '../../actions/weatherActions';
-import TextInput from '../common/TextInput';
+import * as weatherActions from '../../../actions/weatherActions';
+import TextInput from '../../common/TextInput';
 
 class WeatherDarkPageHourly extends React.Component {
   // constructor(props, context) {
